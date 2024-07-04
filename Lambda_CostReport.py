@@ -1,6 +1,6 @@
 import boto3, datetime, os
 
-# A  Python based Lambda function to send an SNS topic to notify users of the month to date costs.
+# A Python based Lambda function to send an SNS topic to notify users of the month to date costs.
 # Requires an environmental variable named 'SNS_TOPIC_ARN' to be set with the ARN of the SNS topic to send the message to. Alternatively, replace line 27 with the ARN of the SNS topic.
 
 def calculate_month_to_date_costs():
